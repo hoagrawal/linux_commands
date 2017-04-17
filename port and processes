@@ -1,0 +1,3 @@
+# Command to check what process is listening on a port
+
+sudo lsof -n -i :8080 | grep LISTEN
